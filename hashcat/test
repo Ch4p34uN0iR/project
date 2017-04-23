@@ -1,5 +1,18 @@
->>> import subprocess
->>> test = subprocess.check_output(['apt','update'], stderr=subprocess.PIPE)
->>> test
-"Get:1 http://archive-6.kali.org/kali kali-rolling InRelease [30.5 kB]\nGet:2 http://archive-6.kali.org/kali kali-rolling/main amd64 Packages [15.1 MB]\nGet:3 http://archive-6.kali.org/kali kali-rolling/contrib amd64 Packages [105 kB]\nFetched 14.6 MB in 3s (4,196 kB/s)\nReading package lists...\nBuilding dependency tree...\nReading state information...\n79 packages can be upgraded. Run 'apt list --upgradable' to see them.\n"
->>> 
+@$@W$EE@WSDDRD@@W@RR88R$EW9%EW$8$WSW9D$DE88RDSDS
+@8$W@DW$8@S$@888@ku!=!'"!"!!!eyD@%DW$WR%98$9RE8$
+1rf98SDR9$W9VV"'!              '!u\9R@8RRR9ky5?y
+\!   !!"!!'                         ''!''!!  !ey
+$ES!                                       "y8@S
+88RWf                                     r$$9@W
+R8EDR5                                   !@WSEE@
+R$@$DEr                                 !R9$8SE8
+D$R88R9r                                y9D8DRES
+$E$SSRDf                               !WDDSD8SD
+ED%RR$Eu                               !S8WR8WD8
+@R$SR@WV   !1'                   'vv   !$W$@S88E
+SE8WEW8%"   "99ur             !?V91   -k%$R$8%D$
+$ERRRS@RRr    'fkW9?!     :vVDEy"    !WSWR8D8SDW
+9S8$SRWSS@\!     ''!'      !!!     .e@8@S@@S88WE
+S$8$8S$@%@WEV"                   =fWWSWR%ES%88S8
+8W$$WD89W$WD8@Eye!!!        :!ru5SS8SR8R8DRE$D$W
+$$DES%S8$9WR9ERWD@EV       r$ESES$DEEWR$R8%@@W%8
