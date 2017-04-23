@@ -1,0 +1,5 @@
+>>> import subprocess
+>>> test = subprocess.check_output(['apt','update'], stderr=subprocess.PIPE)
+>>> test
+"Get:1 http://archive-6.kali.org/kali kali-rolling InRelease [30.5 kB]\nGet:2 http://archive-6.kali.org/kali kali-rolling/main amd64 Packages [15.1 MB]\nGet:3 http://archive-6.kali.org/kali kali-rolling/contrib amd64 Packages [105 kB]\nFetched 14.6 MB in 3s (4,196 kB/s)\nReading package lists...\nBuilding dependency tree...\nReading state information...\n79 packages can be upgraded. Run 'apt list --upgradable' to see them.\n"
+>>> 
