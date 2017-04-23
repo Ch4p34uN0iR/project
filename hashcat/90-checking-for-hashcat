@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cat /etc/update-motd.d/hashcat.txt
+
+ps cax | grep hashcat > /dev/null
+
+if [ $? -eq 0 ] ; then
+    printf '\n\tHashcat is running\n\n'
+else
+    printf '\n\tHashcat is not running\n\n'
+fi
