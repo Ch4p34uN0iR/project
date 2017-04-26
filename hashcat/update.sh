@@ -13,8 +13,8 @@ if [[ $CHECKING != *"can be upgraded"* ]] ; then
 	logme "$MESSAGE"
 else
 	MESSAGE=`printf "$CHECKING" | grep "can be upgraded" | cut -d "." -f 1 | sed "s/can be/were/"`
-	apt upgrade -y 2>/dev/null || logme "Uh-oh! Something went wrong upgrading!"
-	apt dist-upgrade -y 2>/dev/null || logme "Uh-oh! Something went wrong with dist-upgrade!"
-	apt autoremove -y 2>/dev/null || logme "Uh-oh! Something went wrong with autoremoving!"
+	apt upgrade -y || logme "Uh-oh! Something went wrong upgrading!"
+	apt dist-upgrade -y || logme "Uh-oh! Something went wrong with dist-upgrade!"
+	apt autoremove -y || logme "Uh-oh! Something went wrong with autoremoving!"
 	logme "$MESSAGE"
 fi
